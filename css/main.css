@@ -1899,17 +1899,46 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#contact {
-	background: #EAEAED;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
+ #contact {
+    background: #ffffff; /* Fondo azul oscuro */
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    color: #ffffff; /* Color del texto blanco para mejor contraste */
 }
+
 .contact-content {
-	margin-top: 5.4rem;
-	max-width: 1020px;
+    margin-top: 5.4rem;
+    max-width: 1020px;
+    margin-left: auto; /* Centra el contenido */
+    margin-right: auto; /* Centra el contenido */
+    padding: 0 20px; /* Añade un poco de padding horizontal */
 }
-.contact-content .bgrid {
-	padding: 0 30px;
+
+.accordion-item {
+    background: #1b2631; /* Fondo gris oscuro para cada ítem de acordeón */
+    margin-bottom: 1rem; /* Espacio entre ítems */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.accordion-title {
+    color: #ffffff; /* Color del texto del título */
+    font-size: 1.2rem; /* Tamaño de fuente más grande para el título */
+    padding: 1rem; /* Espaciado interno */
+    display: block; /* Para que se comporte como un bloque */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.accordion-content {
+    padding: 1rem; /* Espaciado interno */
+    background: #3a4750; /* Fondo gris más claro para el contenido del acordeón */
+    color: #e0e0e0; /* Color del texto del contenido */
+}
+
+.map-container {
+    margin-top: 2rem; /* Espacio arriba del mapa */
+    border-radius: 8px; /* Bordes redondeados para el contenedor del mapa */
+    overflow: hidden; /* Asegura que el mapa no se desborde */
 }
 
 /**
@@ -1919,20 +1948,23 @@ a.menu-toggle {
  */
 
 @media only screen and (max-width:768px) {
-	.contact-content {
-		max-width: 650px;
-	}
+    .contact-content {
+        max-width: 650px;
+    }
 }
+
 @media only screen and (max-width:480px) {
-	.contact-content .bgrid {
-		padding: 0 20px;
-	}
+    .contact-content .bgrid {
+        padding: 0 20px;
+    }
 }
+
 @media only screen and (max-width:400px) {
-	.contact-content .bgrid {
-		padding: 0;
-	}
+    .contact-content .bgrid {
+        padding: 0;
+    }
 }
+
 
 
 /** 

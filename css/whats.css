@@ -1,0 +1,19 @@
+
+.whatsapp {
+  position: fixed;
+  width: 60px; /* Tamaño del botón */
+  height: 60px; /* Tamaño del botón */
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50%; /* Mantener la forma circular */
+  text-align: center;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  width: 40px; /* Tamaño de la imagen */
+  height: 40px; /* Tamaño de la imagen */
+  margin-top: 10px; /* Ajustar el margen superior para centrar la imagen */
+}
